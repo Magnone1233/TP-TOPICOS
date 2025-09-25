@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar y Ejecutar C",
+            "type": "shell",
+                    "command": "clang",
+                    "args": [
+                        "-I", "${workspaceFolder}/Headers",
+                        "Sources/main.c",
+                        "Sources/extraccion_archivo.c",
+                        "Sources/validaciones.c",
+                        "-o",
+                        "programa",
+                        "&&",
+                        "./programa"
+                    ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Compila y ejecuta un archivo C"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang compilar archivo activo",
+            "command": "/usr/bin/clang",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+﻿46265307|ares nicolas|15/5/2005|m|2/5/2023|adulto|1/5/2025|a|basic
+57234567|jorge nicolas|15/5/2005|m|2/5/2023|mayor|1/5/2025|a|basic
+57234567|jorge nicolas|15/5/2005|m|2/5/2023|mayor|1/5/2025|a|basic
+57367890|jeremias local|15/5/2014|m|2/5/2024|mayor|1/5/2025|a|basic|nicolasaress@gmail.com
